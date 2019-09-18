@@ -35,7 +35,7 @@ Catatan untuk melakukan instal tanpa menggunakan android studio yang memiliki Ra
   Jangan lupa untuk menjalankan syntax accept licenses nya 
   <code> flutter doctor --android-licenses </code>
  -  Selanjutnya install Visual Studio Code dan ekstension flutter serta dart nya. 
- - Jika semuanya sudah selesai silahkan buka terminal (Command Prompt) di Android/flutter atau untuk pengguna windows bisa double klik di C:\Android\Flutter\flutter_console.bat dan jalankan perintah flutter doctor, maka hasilnya seperti gambar berikut. <img src="https://miro.medium.com/max/828/1*SAiL9iY7cNSKAk1yredbkA.png" />
+ - Jika semuanya sudah selesai silahkan buka terminal (Command Prompt) di Android/flutter atau untuk pengguna windows bisa double klik di C:\Android\Flutter\flutter_console.bat dan jalankan perintah flutter doctor, maka hasilnya seperti gambar berikut. <img src="https://drive.google.com/open?id=1KdFB0BVwagQOEf710IFQlJAQW4J0JiHz" />
  = Step terakhir adalah buat project di VsCode dengan klik F1 dan mengetikan Flutter: New Project setelah project selesai di load, klik F5 untuk mendeploy ke android device teman-teman. dan hasilnya seperti gambar dibawah ini
  
  
