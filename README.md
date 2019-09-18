@@ -20,18 +20,18 @@ Flutter adalah sebuah framework aplikasi mobil sumber terbuka yang diciptakan ol
  
  - Selanjutnya silahkan download OpenJDK di <a href="https://github.com/AdoptOpenJDK/openjdk8-binaries/releases">halaman ini</a>, dan pilih yang berekstensi zip. sesuaikan dengan sistem operasi yang digunakan, saya menggunakan versi jdk1.8.0_201 . setelah di download jangan lupa untuk mengekstrak ke folder Android yang sudah kita punya sebelumnya dan rename nama folder dari jdk1.8.0_201 menjadi openjdk. totalnya sekarang kita punya 3 folder yaitu flutter, tools dan openjdk.
  
- - sampai sini kita harus menge-set Environment Variable dan Path, untuk windows silahkan buka command prompt dan ketikan   command perbaris.<code>  
-  setx JAVA_HOME “C:\Android\openjdk” </code><br>
-  setx ANDROID_HOME “C:\Android” </code> <br> 
-  setx ANDROID_SDK_ROOT “C:\Android\tools” </code><br>
-  setx path “%path%;”C:\Android\sdk;C:\Android\tools\bin;C:\Android\flutter\bin” </code>
-- Buka terminal (Command Prompt) di C:/Android/tools/bin lalu ketikan beberapa perintah berikut. <code> 
-  sdkmanager “system-images;android-28;default;x86_64” </code> <br> 
-  sdkmanager “platform-tools” </code><br>
-  sdkmanager “build-tools;28.0.3” .</code><br>
-  sdkmanager “platforms;android-28” </code><br>
-  </code>
-  untuk pengguna Mac silahkan jalankan dengan single qoute (petik satu) seperti berikut.
+ - sampai sini kita harus menge-set Environment Variable dan Path, untuk windows silahkan buka command prompt dan ketikan command perbaris. <br>
+ <code> setx JAVA_HOME “C:\Android\openjdk” </code><br>
+ <code> setx ANDROID_HOME “C:\Android” </code> <br> 
+ <code> setx ANDROID_SDK_ROOT “C:\Android\tools” </code><br>
+ <code> setx path “%path%;”C:\Android\sdk;C:\Android\tools\bin;C:\Android\flutter\bin” </code>
+- Buka terminal (Command Prompt) di C:/Android/tools/bin lalu ketikan beberapa perintah berikut. <br> 
+<code> sdkmanager “system-images;android-28;default;x86_64” </code> <br> 
+  <code> sdkmanager “platform-tools” </code><br>
+ <code> sdkmanager “build-tools;28.0.3” .</code><br>
+ <code> sdkmanager “platforms;android-28” </code><br>
+
+  untuk pengguna Mac silahkan jalankan dengan single qoute (petik satu) seperti berikut. <br>
   <code> sdkmanager ‘system-images;android-28;default;x86_64’ </code>
   untuk SDK sendiri, Flutter selalu memerlukan Android SDK yang terbaru. jadi silahkan update sdk dengan command :
   <code> sdkmanager —-update </code>
