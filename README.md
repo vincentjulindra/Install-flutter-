@@ -20,16 +20,16 @@ Flutter adalah sebuah framework aplikasi mobil sumber terbuka yang diciptakan ol
  
  - Selanjutnya silahkan download OpenJDK di <a href="https://github.com/AdoptOpenJDK/openjdk8-binaries/releases">halaman ini</a>, dan pilih yang berekstensi zip. sesuaikan dengan sistem operasi yang digunakan, saya menggunakan versi jdk1.8.0_201 . setelah di download jangan lupa untuk mengekstrak ke folder Android yang sudah kita punya sebelumnya dan rename nama folder dari jdk1.8.0_201 menjadi openjdk. totalnya sekarang kita punya 3 folder yaitu flutter, tools dan openjdk.
  
- - sampai sini kita harus menge-set Environment Variable dan Path, untuk windows silahkan buka command prompt dan ketikan   command perbaris.<code>  <br>
-  setx JAVA_HOME “C:\Android\openjdk” <br>
-  setx ANDROID_HOME “C:\Android”  <br> 
-  setx ANDROID_SDK_ROOT “C:\Android\tools” <br>
+ - sampai sini kita harus menge-set Environment Variable dan Path, untuk windows silahkan buka command prompt dan ketikan   command perbaris.<code>  
+  setx JAVA_HOME “C:\Android\openjdk” </code><br>
+  setx ANDROID_HOME “C:\Android” </code> <br> 
+  setx ANDROID_SDK_ROOT “C:\Android\tools” </code><br>
   setx path “%path%;”C:\Android\sdk;C:\Android\tools\bin;C:\Android\flutter\bin” </code>
 - Buka terminal (Command Prompt) di C:/Android/tools/bin lalu ketikan beberapa perintah berikut. <code> 
-  sdkmanager “system-images;android-28;default;x86_64” <br>
-  sdkmanager “platform-tools” <br>
-  sdkmanager “build-tools;28.0.3” <br>
-  sdkmanager “platforms;android-28” <br>
+  sdkmanager “system-images;android-28;default;x86_64” </code> <br> 
+  sdkmanager “platform-tools” </code><br>
+  sdkmanager “build-tools;28.0.3” .</code><br>
+  sdkmanager “platforms;android-28” </code><br>
   </code>
   untuk pengguna Mac silahkan jalankan dengan single qoute (petik satu) seperti berikut.
   <code> sdkmanager ‘system-images;android-28;default;x86_64’ </code>
@@ -38,7 +38,7 @@ Flutter adalah sebuah framework aplikasi mobil sumber terbuka yang diciptakan ol
   Jangan lupa untuk menjalankan syntax accept licenses nya 
   <code> flutter doctor --android-licenses </code>
  -  Selanjutnya install Visual Studio Code dan ekstension flutter serta dart nya. 
- - Jika semuanya sudah selesai silahkan buka terminal (Command Prompt) di Android/flutter atau untuk pengguna windows bisa double klik di C:\Android\Flutter\flutter_console.bat dan jalankan perintah <code> flutter doctor <code>, maka hasilnya seperti gambar berikut. <img src="flutter ,,.png" /> <br> atau jika anda ingin melihat yang lengkap bisa mengetikkan perintah <code> flutter doctor -v </code>, hasilnya seperti berikut <br>
+ - Jika semuanya sudah selesai silahkan buka terminal (Command Prompt) di Android/flutter atau untuk pengguna windows bisa double klik di C:\Android\Flutter\flutter_console.bat dan jalankan perintah <code> flutter doctor </code>, maka hasilnya seperti gambar berikut. <br> <img src="flutter ,,.png" /> <br> atau jika anda ingin melihat yang lengkap bisa mengetikkan perintah <code> flutter doctor -v </code> , hasilnya seperti berikut <br>
   <img src="flutter doctor -v.png">
  = Step terakhir adalah buat project di VsCode dengan klik F1 dan mengetikan Flutter: New Project setelah project selesai di load, klik F5 untuk mendeploy ke android device teman-teman. dan hasilnya seperti gambar dibawah ini
 
