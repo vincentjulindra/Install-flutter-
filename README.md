@@ -2,7 +2,7 @@
 Catatan untuk melakukan instal tanpa menggunakan android studio yang memiliki Ram kecil dan storage terbatas.
 
 ## Screenshot
-<a href="https:flutter.dev"><img src="https://upload.wikimedia.org/wikipedia/commons/1/17/Google-flutter-logo.png" border="0"></a>
+<img src="https://upload.wikimedia.org/wikipedia/commons/1/17/Google-flutter-logo.png" border="0"></a>
 
 ## Step - step instalasi pada umumnya  (khusus untuk yang spesifikasi tinggi) : 
 - Download SDK Flutter
