@@ -1,19 +1,18 @@
-# Install Flutter Tanpa Android Studio 
-Catatan untuk melakukan instal tanpa menggunakan android studio yang memiliki Ram kecil dan storage terbatas.
+# Install Flutter di Windows 10
+Nama    : Vincent Julindra Jacob <br>
+NIM     : 20175520007 <br>
+Program Studi Teknik Informatika 2017 <br>
+Mata Kuliah Pemrograman Mobile 
 
-## Screenshot
+## Tentang Flutter
+Flutter adalah sebuah framework aplikasi mobil sumber terbuka yang diciptakan oleh Google. Flutter digunakan dalam pengembangan aplikasi untuk sistem operasi Android dan iOS, serta menjadi metode utama untuk membuat aplikasi Google Fuchsia. <br>
 <img src="https://upload.wikimedia.org/wikipedia/commons/1/17/Google-flutter-logo.png" border="0">
 
-## Step - step instalasi pada umumnya  (khusus untuk yang spesifikasi tinggi) : 
-- Download SDK Flutter
-- Instalasi Android Studio
-- Download plugin dart & flutter untuk VsCode atau Android Studio
-- Buat Project dan Jalankan hello world
-
-## Langkah mudah instalasi Flutter (khusus untuk yang spesifikasi ringan ) : 
+## Jangan Khawatir Jika Laptop Kamu Low Spec, Kita Bisa Install Flutter tanpa pakai Android Studio (yang terkenal berat untuk di jalankan) . Berikut Langkah-langkah install Flutter Tanpa Android Studio : 
 - Download SDK Flutter.
-  Silahkan kunjungi halaman download disini, dan sesuaikan dengan sistem operasi teman teman. saat tulisan ini dibuat flutter dalam    versi 1.2.1 Stable
- 
+  Silahkan kunjungi halaman download <a href="https://flutter.dev/docs/get-started/install/windows"> disini </a>, dan sesuaikan dengan sistem operasi teman teman. saat tulisan ini dibuat flutter dalam versi 1.9.1 Stable
+ Penampakannya seperti berikut : <br>
+ <img src ="1.png">
  - Selanjutnya silahkan download Command Line Tools Only di <a href="https://developer.android.com/studio/#command-tools" > halaman ini </a>, penampakan nya seperti berikut, silahkan download sesuai sistem operasi yang digunakan.
  <img src="https://miro.medium.com/max/1347/1*PKF7u_7UwrmyUlBqX19iFw.png" />
  
