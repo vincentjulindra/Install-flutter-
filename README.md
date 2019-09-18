@@ -32,11 +32,11 @@ Flutter adalah sebuah framework aplikasi mobil sumber terbuka yang diciptakan ol
  <code> sdkmanager “platforms;android-28” </code><br>
 
   untuk pengguna Mac silahkan jalankan dengan single qoute (petik satu) seperti berikut. <br>
-  <code> sdkmanager ‘system-images;android-28;default;x86_64’ </code>
-  untuk SDK sendiri, Flutter selalu memerlukan Android SDK yang terbaru. jadi silahkan update sdk dengan command :
-  <code> sdkmanager —-update </code>
-  Jangan lupa untuk menjalankan syntax accept licenses nya 
-  <code> flutter doctor --android-licenses </code>
+  <code> sdkmanager ‘system-images;android-28;default;x86_64’ </code> <br>
+  untuk SDK sendiri, Flutter selalu memerlukan Android SDK yang terbaru. jadi silahkan update sdk dengan command : <br>
+  <code> sdkmanager —-update </code> <br>
+  Jangan lupa untuk menjalankan syntax accept licenses nya  <br> 
+  <code> flutter doctor --android-licenses </code> 
  -  Selanjutnya install Visual Studio Code dan ekstension flutter serta dart nya. 
  - Jika semuanya sudah selesai silahkan buka terminal (Command Prompt) di Android/flutter atau untuk pengguna windows bisa double klik di C:\Android\Flutter\flutter_console.bat dan jalankan perintah <code> flutter doctor </code>, maka hasilnya seperti gambar berikut. <br> <img src="flutter ,,.png" /> <br> atau jika anda ingin melihat yang lengkap bisa mengetikkan perintah <code> flutter doctor -v </code> , hasilnya seperti berikut <br>
   <img src="flutter doctor -v.png">
