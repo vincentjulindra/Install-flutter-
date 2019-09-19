@@ -42,7 +42,9 @@ Flutter adalah sebuah framework aplikasi mobil sumber terbuka yang diciptakan ol
   <code> sdkmanager —-update </code> <br>
   Jangan lupa untuk menjalankan syntax accept licenses nya  <br> 
   <code> flutter doctor --android-licenses </code> <br>
- -  Selanjutnya install Visual Studio Code dan ekstension flutter serta dart nya. <br>
+ -  Selanjutnya install Visual Studio Code <a href="https://code.visualstudio.com/download">disini</a>. Sesuaikan dengan operasi sistem yang anda gunakan.  <br>
+ <img src = "Screenshot_2.png"> <br>
+ - Jalankan Visual Studio Code, download dan install plug-in Flutter beserta ekstension Dartnya seperti gambar dibawah ini.
  <img src = "5.png"> <br>
  Seperti gambar diatas . <br>
  -  Colok Smartphone anda ke laptop dengan kabel USB, jangan lupa untuk mengaktifkan USB Debugging di Developer Options smartphone anda.
