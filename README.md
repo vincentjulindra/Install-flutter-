@@ -39,15 +39,13 @@ Flutter adalah sebuah framework aplikasi mobil sumber terbuka yang diciptakan ol
   untuk SDK sendiri, Flutter selalu memerlukan Android SDK yang terbaru. jadi silahkan update sdk dengan command : <br>
   <code> sdkmanager —-update </code> <br>
   Jangan lupa untuk menjalankan syntax accept licenses nya  <br> 
-  <code> flutter doctor --android-licenses </code> 
- -  Selanjutnya install Visual Studio Code dan ekstension flutter serta dart nya.
+  <code> flutter doctor --android-licenses </code> <br>
+ -  Selanjutnya install Visual Studio Code dan ekstension flutter serta dart nya. <br>
+ <img src = "5.png"> <br>
+ Seperti gambar diatas . 
  -  Colok Smartphone anda ke laptop dengan kabel USB, jangan lupa untuk mengaktifkan USB Debugging di Developer Options smartphone anda.
+(Jika Developer Option tidak bisa anda temukan, anda bisa unlock Developer Option dengan pergi ke bagian About Phone, klik 8x Build Number sampai ada tulisan "Anda sekarang menjadi pengembang/Now you are a developer" , maka Developer Options sudah terbuka.) 
  - Jika semuanya sudah selesai silahkan buka terminal (Command Prompt) di Android/flutter atau untuk pengguna windows bisa double klik di C:\Android\Flutter\flutter_console.bat dan jalankan perintah <code> flutter doctor </code>, maka hasilnya seperti gambar berikut. <br> <img src="flutter ,,.png" /> <br> Abaikan saja jika Android studio tidak terinstall karena kita tidak menggunakannya, atau jika anda ingin melihat yang lengkap bisa mengetikkan perintah <code> flutter doctor -v </code> , hasilnya seperti berikut <br>
   <img src="flutter doctor -v.png">
- = Step terakhir adalah buat project di VsCode dengan klik F1 dan mengetikan Flutter: New Project setelah project selesai di load, klik F5 untuk mendeploy ke android device teman-teman. dan hasilnya seperti gambar dibawah ini
 
-
-## Info Lebih Lengkap
-Website : [www.matanauniversity.ac.id](https://www.matanauniversity.ac.id).  
-Mahasiswa Teknik Informatika
 
