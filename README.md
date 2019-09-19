@@ -27,12 +27,13 @@ Flutter adalah sebuah framework aplikasi mobil sumber terbuka yang diciptakan ol
  <code> setx path “%path%;”C:\Android\sdk;C:\Android\tools\bin;C:\Android\flutter\bin” </code> <br>
  Setelah anda melakukan command diatas, anda bisa cek Enviroment Variables komputer anda , terlihat di JAVA_HOME, ANDROID_HOME , ANDROID_SDK_ROOT dan di PATH sudah berubah sesuai dengan yang kita set. <br>
  <img src = "enviroment.png">
-- Buka terminal (Command Prompt) di C:/Android/tools/bin lalu ketikan beberapa perintah berikut. <br> 
+- Buka terminal (Command Prompt) di C:/Android/tools/bin lalu ketikan beberapa perintah berikut. (Anda memerlukan koneksi internet) <br> 
 <code> sdkmanager “system-images;android-28;default;x86_64” </code> <br> 
   <code> sdkmanager “platform-tools” </code><br>
  <code> sdkmanager “build-tools;28.0.3” .</code><br>
  <code> sdkmanager “platforms;android-28” </code><br>
-
+ Setelah semua code diatas selesai, anda bisa cek Folder Android, ada banyak folder baru hasil download di command diatas. <br>
+ <img src ="Screenshot_1.png">
   untuk pengguna Mac silahkan jalankan dengan single qoute (petik satu) seperti berikut. <br>
   <code> sdkmanager ‘system-images;android-28;default;x86_64’ </code> <br>
   untuk SDK sendiri, Flutter selalu memerlukan Android SDK yang terbaru. jadi silahkan update sdk dengan command : <br>
