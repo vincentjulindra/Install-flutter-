@@ -48,4 +48,4 @@ Flutter adalah sebuah framework aplikasi mobil sumber terbuka yang diciptakan ol
  - Jika semuanya sudah selesai silahkan buka terminal (Command Prompt) di Android/flutter atau untuk pengguna windows bisa double klik di C:\Android\Flutter\flutter_console.bat dan jalankan perintah <code> flutter doctor </code>, maka hasilnya seperti gambar berikut. <br> <img src="flutter ,,.png" /> <br> Abaikan saja jika Android studio tidak terinstall karena kita tidak menggunakannya, atau jika anda ingin melihat yang lengkap bisa mengetikkan perintah <code> flutter doctor -v </code> , hasilnya seperti berikut <br>
   <img src="flutter doctor -v.png">
 
-
+## Selesai, Flutter telah sukses kamu install! Selamat bekerja.
