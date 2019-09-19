@@ -16,10 +16,11 @@ Flutter adalah sebuah framework aplikasi mobil sumber terbuka yang diciptakan ol
  - Selanjutnya download Command Line Tools Only <a href="https://developer.android.com/studio/#command-tools" > disini </a>, penampakan nya seperti berikut, silahkan download sesuai sistem operasi yang digunakan.
  <img src="https://miro.medium.com/max/1347/1*PKF7u_7UwrmyUlBqX19iFw.png" />
  <br>
- - Buat Folder bernama "Android" di Local Disk C: .
+ - Buat Folder bernama "Android" di Local Disk C: . <br>
+ 
  - Silahkan Ekstrak kedua file yang kamu sudah download sebelumnya dan letakkan di C:\Android untuk windows dan untuk sistem operasi yang lainnya bisa menaruh di root dan buat folder Android. Maka hasilnya akan ada 2 folder yaitu folder flutter dan tools.
  
- - Selanjutnya silahkan download OpenJDK di <a href="https://github.com/AdoptOpenJDK/openjdk8-binaries/releases">halaman ini</a>, dan pilih yang berekstensi zip. sesuaikan dengan sistem operasi yang digunakan, saya menggunakan versi jdk1.8.0_201 . setelah di download jangan lupa untuk mengekstrak ke folder Android yang sudah kita punya sebelumnya dan rename nama folder dari jdk1.8.0_201 menjadi openjdk. totalnya sekarang kita punya 3 folder yaitu flutter, tools dan openjdk.
+ - Selanjutnya silahkan download OpenJDK <a href="https://github.com/AdoptOpenJDK/openjdk8-binaries/releases">disini</a>, dan pilih yang berekstensi zip. sesuaikan dengan sistem operasi yang digunakan, saya menggunakan versi jdk1.8.0_201 . setelah di download jangan lupa untuk mengekstrak ke folder Android yang sudah kita punya sebelumnya dan rename nama folder dari jdk1.8.0_201 menjadi openjdk. totalnya sekarang kita punya 3 folder yaitu flutter, tools dan openjdk.
  
  - sampai sini kita harus menge-set Environment Variable dan Path, untuk windows silahkan buka command prompt dan ketikan command perbaris. <br>
  <code> setx JAVA_HOME “C:\Android\openjdk” </code><br>
