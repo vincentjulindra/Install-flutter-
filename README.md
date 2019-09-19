@@ -26,7 +26,7 @@ Flutter adalah sebuah framework aplikasi mobil sumber terbuka yang diciptakan ol
  <code> setx ANDROID_SDK_ROOT “C:\Android\tools” </code><br>
  <code> setx path “%path%;”C:\Android\sdk;C:\Android\tools\bin;C:\Android\flutter\bin” </code> <br>
  Setelah anda melakukan command diatas, anda bisa cek Enviroment Variables komputer anda , terlihat di JAVA_HOME, ANDROID_HOME , ANDROID_SDK_ROOT dan di PATH sudah berubah sesuai dengan yang kita set. <br>
- <img src = "5.png">
+ <img src = "Enviroment.png">
 - Buka terminal (Command Prompt) di C:/Android/tools/bin lalu ketikan beberapa perintah berikut. <br> 
 <code> sdkmanager “system-images;android-28;default;x86_64” </code> <br> 
   <code> sdkmanager “platform-tools” </code><br>
