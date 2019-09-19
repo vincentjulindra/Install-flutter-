@@ -10,13 +10,14 @@ Flutter adalah sebuah framework aplikasi mobil sumber terbuka yang diciptakan ol
 
 ## Jangan Khawatir Jika Laptop Kamu Low Spec, Kita Bisa Install Flutter tanpa pakai Android Studio (yang terkenal berat untuk di jalankan) . Berikut Langkah-langkah install Flutter Tanpa Android Studio : 
 - Download SDK Flutter.
-  Silahkan kunjungi halaman download <a href="https://flutter.dev/docs/get-started/install/windows"> disini </a>, dan sesuaikan dengan sistem operasi teman teman. Saat tulisan ini dibuat flutter dalam versi 1.9.1 Stable. <br>
+  Silahkan kunjungi halaman download <a href="https://flutter.dev/docs/get-started/install/windows"> disini </a>, dan sesuaikan dengan sistem operasi teman-teman. Saat tulisan ini dibuat flutter dalam versi 1.9.1 Stable. <br>
  Penampakannya seperti berikut : <br>
  <img src ="1.png">
- - Selanjutnya silahkan download Command Line Tools Only di <a href="https://developer.android.com/studio/#command-tools" > halaman ini </a>, penampakan nya seperti berikut, silahkan download sesuai sistem operasi yang digunakan.
+ - Selanjutnya download Command Line Tools Only <a href="https://developer.android.com/studio/#command-tools" > disini </a>, penampakan nya seperti berikut, silahkan download sesuai sistem operasi yang digunakan.
  <img src="https://miro.medium.com/max/1347/1*PKF7u_7UwrmyUlBqX19iFw.png" />
- 
- - Silahkan Ekstrak kedua file tersebut dan letakkan di C:\Android untuk windows dan untuk sistem operasi yang lainnya bisa menaruh di root dan buat folder Android. Maka hasilnya akan ada 2 folder yaitu folder flutter dan tools.
+ <br>
+ - Buat Folder bernama "Android" di Local Disk C: .
+ - Silahkan Ekstrak kedua file yang kamu sudah download sebelumnya dan letakkan di C:\Android untuk windows dan untuk sistem operasi yang lainnya bisa menaruh di root dan buat folder Android. Maka hasilnya akan ada 2 folder yaitu folder flutter dan tools.
  
  - Selanjutnya silahkan download OpenJDK di <a href="https://github.com/AdoptOpenJDK/openjdk8-binaries/releases">halaman ini</a>, dan pilih yang berekstensi zip. sesuaikan dengan sistem operasi yang digunakan, saya menggunakan versi jdk1.8.0_201 . setelah di download jangan lupa untuk mengekstrak ke folder Android yang sudah kita punya sebelumnya dan rename nama folder dari jdk1.8.0_201 menjadi openjdk. totalnya sekarang kita punya 3 folder yaitu flutter, tools dan openjdk.
  
