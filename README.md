@@ -47,7 +47,7 @@ Flutter adalah sebuah framework aplikasi mobil sumber terbuka yang diciptakan ol
  - Jalankan Visual Studio Code, download dan install plug-in Flutter beserta ekstension Dartnya seperti gambar dibawah ini.
  <img src = "5.png"> <br><br>
  -  Colok Smartphone anda ke laptop dengan kabel USB, jangan lupa untuk mengaktifkan USB Debugging di Developer Options smartphone anda.
-(Jika Developer Option tidak bisa anda temukan, anda bisa unlock Developer Option dengan pergi ke bagian About Phone, klik 8x Build Number sampai ada tulisan "Anda sekarang menjadi pengembang/Now you are a developer" , maka Developer Options sudah terbuka.) 
+(Jika Developer Option tidak bisa anda temukan, anda bisa unlock Developer Option dengan pergi ke bagian About Phone, klik 8x Build Number sampai ada tulisan "Anda sekarang menjadi pengembang/Now you are a developer" , maka Developer Options sudah terbuka.) <br>
  - Jika semuanya sudah selesai silahkan buka terminal (Command Prompt) di Android/flutter atau untuk pengguna windows bisa double klik di C:\Android\Flutter\flutter_console.bat dan jalankan perintah <code> flutter doctor </code>, maka hasilnya seperti gambar berikut. <br> <img src="flutter ,,.png" /> <br> Abaikan saja jika Android studio tidak terinstall karena kita tidak menggunakannya, atau jika anda ingin melihat yang lengkap bisa mengetikkan perintah <code> flutter doctor -v </code> , hasilnya seperti berikut <br>
   <img src="flutter doctor -v.png">
 
