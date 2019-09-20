@@ -54,22 +54,22 @@ Flutter adalah sebuah framework aplikasi mobil sumber terbuka yang diciptakan ol
  ##Instalasi Dart
 - Buka Command Prompt, ketikkan code berikut <br>
 <code> setx path "%path%"
-</code>
+</code> <br>
 - Setelah itu restart Command Prompt. Ketikkan code <br>
 <code> dart </code> <br>
-Maka akan muncul seperti gambar dibawah 
-- Setelah itu buat Folder bernama "latihan_dart" Di Local Disk C
-- Di dalam folder latihan_dart buat sebuah folder bernama kodedart_1 .
-- Buka Visual Studio Code kamu lalu ketikkan code , Open folder latihan_dart , lalu buat file di dalam folder kodedart_1 bernama "hello dart" 
+Maka akan muncul seperti gambar dibawah <br>
+- Setelah itu buat Folder bernama "latihan_dart" Di Local Disk C <br>
+- Di dalam folder latihan_dart buat sebuah folder bernama kodedart_1 . <br>
+- Buka Visual Studio Code kamu lalu ketikkan code , Open folder latihan_dart , lalu buat file di dalam folder kodedart_1 bernama "hello dart" <br>
 <code> 
 void main(){
  Print("Hello World");
 }  
-</code>
-- Simpan, lalu di Command Prompt, arahkan ke C:/latihan_dart/kodedart_1 .
-- Masukkan kode
+</code> <br>
+- Simpan, lalu di Command Prompt, arahkan ke C:/latihan_dart/kodedart_1 . <br>
+- Masukkan kode <br>
 <code> 
 Dart hello.dart
-</code> 
-- Maka akan muncul seperti gambar dibawah, dengan ini artinya dart sudah terinstall
+</code>  <br>
+- Maka akan muncul seperti gambar dibawah, dengan ini artinya dart sudah terinstall<br>
 ## Selesai, Flutter dan Dart telah sukses kamu install! Selamat bekerja.
