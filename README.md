@@ -50,5 +50,26 @@ Flutter adalah sebuah framework aplikasi mobil sumber terbuka yang diciptakan ol
 (Jika Developer Option tidak bisa anda temukan, anda bisa unlock Developer Option dengan pergi ke bagian About Phone, klik 8x Build Number sampai ada tulisan "Anda sekarang menjadi pengembang/Now you are a developer" , maka Developer Options sudah terbuka.) <br>
  - Jika semuanya sudah selesai silahkan buka terminal (Command Prompt) di Android/flutter atau untuk pengguna windows bisa double klik di C:\Android\Flutter\flutter_console.bat dan jalankan perintah <code> flutter doctor </code>, maka hasilnya seperti gambar berikut. <br> <img src="flutter.png" /> <br> Abaikan saja jika Android studio tidak terinstall karena kita tidak menggunakannya, atau jika anda ingin melihat yang lengkap bisa mengetikkan perintah <code> flutter doctor -v </code> , hasilnya seperti berikut <br>
   <img src="flutter doctor -v.png">
-
-## Selesai, Flutter telah sukses kamu install! Selamat bekerja.
+ 
+ ##Instalasi Dart
+- Buka Command Prompt, ketikkan code berikut <br>
+<code> setx path "%path%"
+</code>
+- Setelah itu restart Command Prompt. Ketikkan code <br>
+<code> dart <code> <br>
+Maka akan muncul seperti gambar dibawah 
+- Setelah itu buat Folder bernama "latihan_dart" Di Local Disk C
+- Di dalam folder latihan_dart buat sebuah folder bernama kodedart_1 .
+- Buka Visual Studio Code kamu lalu ketikkan code , Open folder latihan_dart , lalu buat file di dalam folder kodedart_1 bernama "hello dart" 
+<code> 
+void main(){
+ Print("Hello World");
+}  
+</code>
+- Simpan, lalu di Command Prompt, arahkan ke C:/latihan_dart/kodedart_1 .
+- Masukkan kode
+<code> 
+Dart hello.dart
+</code> 
+- Maka akan muncul seperti gambar dibawah, dengan ini artinya dart sudah terinstall
+## Selesai, Flutter dan Dart telah sukses kamu install! Selamat bekerja.
