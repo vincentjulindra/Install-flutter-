@@ -56,7 +56,7 @@ Flutter adalah sebuah framework aplikasi mobil sumber terbuka yang diciptakan ol
 <code> setx path "%path%"
 </code>
 - Setelah itu restart Command Prompt. Ketikkan code <br>
-<code> dart <code> <br>
+<code> dart </code> <br>
 Maka akan muncul seperti gambar dibawah 
 - Setelah itu buat Folder bernama "latihan_dart" Di Local Disk C
 - Di dalam folder latihan_dart buat sebuah folder bernama kodedart_1 .
